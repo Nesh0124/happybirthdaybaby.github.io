@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happiest Birthday Baby</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- Add custom CSS here -->
+		<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+        <style type="text/css">
+ 
+ 
+.gallery{
+	margin: 4% auto;
+	width: 210px;
+	height: 300px;
+	position: relative;
+	perspective: 1000px;
+}
+#carousel{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: rotation 20s infinite linear;
+}
+#carousel:hover{
+	animation-play-state: paused;
+}
+#carousel figure{
+	display: block;
+	position: absolute;
+	width: 90%;
+	height: 78%;
+	left: 10px;
+	top: 10px;
+	
+	overflow: hidden;
+	border: solid 5px #111010;
+}
+#carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
+#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
+#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
+#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
+#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
+#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
+#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
+#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+#carousel figure:nth-child(10) { transform: rotateY(360deg) translateZ(288px);}
+ 
+#carousel img{
+	-webkit-filter: grayscale(0);
+	cursor: pointer;
+	transition: all .5s ease;
+	width:100%;
+}
+#carousel img:hover{
+	-webkit-filter: grayscale(0.8);
+  	transform: scale(1.2,1.2);
+}
+ 
+@keyframes rotation{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+
+body{
+    background-color: #2b2c2c; /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg, black, white);
+  height: 650px;
+}
+   
+</style>
+</head>
+ 
+<body>
+  
+        <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="div-center gallery">
+            	<div id="carousel">
+    <figure><img src="2ndpic.jpg" alt=""></figure>
+    <figure><img src="3rdpic.jpg" alt=""></figure>
+    <figure><img src="4thpic.jpg" alt=""></figure>
+    <figure><img src="5thpic.jpg" alt=""></figure>
+    <figure><img src="6thpic.jpg" alt=""></figure>
+    <figure><img src="7thpic.jpg" alt=""></figure>
+    <figure><img src="8thpic.jpg" alt=""></figure>
+	<figure><img src="9thpic.jpeg" alt=""></figure>
+    <figure><img src="10thpic.jpg" alt=""></figure>
+    <figure><img src="pic24.jpg" alt=""></figure>
+                </div>
+				
+            </div>
+			<p style="color: skyblue; font-size:30px; font-family:Aclonica; margin-left: 200px;">
+				A, b, c, d, e, f, g , h, i, j, k, l, m, n, o, p, q, r, s, t,…v, w, x, y, z.<br> Guess what is missing ? <br>It's ‘U’ I am Missing U My Love.</p>
+		</div>
+    </div>
+</div>
+<audio controls style="margin-left: 40%; margin-top: 5%;"> 
+           
+    <source src="audio1.mp3" type="audio/mpeg">
+</audio>
+<a href="bithday2.html"> <button><img src="pic24.gif" alt="" style="width: 150px; height: 150px;"></button></a>
+        	<!-- JavaScript -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+    	</body>
+</html>
+ 
